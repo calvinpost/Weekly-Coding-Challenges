@@ -1,7 +1,7 @@
 using System;
 using System.Text.RegularExpressions;
 
-public class HelloWorld
+public class HexCode
 {
     public static void Main(string[] args)
     {
