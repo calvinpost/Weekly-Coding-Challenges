@@ -20,7 +20,7 @@ public class HexCode
     }
     
     public static bool IsHexCode(string s) {
-        string p = "^#[0-9a-fA-F]+$";
+        string p = "^#[0-9a-fA-F]{6}$";
         return Regex.IsMatch(s,p);
     }
 }
